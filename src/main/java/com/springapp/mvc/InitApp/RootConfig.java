@@ -97,8 +97,4 @@ public class RootConfig {
 
         return entityManagerFactoryBean;
     }
-    @Bean
-    public MyCustomUserDetailsService getUserService(){
-        return new MyCustomUserDetailsService();
-    }
 }

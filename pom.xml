@@ -9,7 +9,7 @@
 
     <properties>
         <spring.version>3.2.0.RELEASE</spring.version>
-        <spring.security.version>3.2.0.RC1</spring.security.version>
+        <spring.security.version>3.2.0.RELEASE</spring.security.version>
     </properties>
 
     <dependencies>
@@ -111,6 +111,11 @@
             <groupId>javax.transaction</groupId>
             <artifactId>jta</artifactId>
             <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>com.springsource.slf4j.api</artifactId>
+            <version>1.6.1</version>
         </dependency>
 
     </dependencies>

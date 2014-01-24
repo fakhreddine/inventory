@@ -12,6 +12,6 @@ public class MainController {
 
     @RequestMapping("/")
     public ModelAndView getAuthenticatedLocation(){
-        return new ModelAndView("redirect:/app/");
+        return new ModelAndView("../login");
     }
 }

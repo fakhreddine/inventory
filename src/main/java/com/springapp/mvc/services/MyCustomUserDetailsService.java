@@ -1,5 +1,6 @@
 package com.springapp.mvc.services;
 
+import com.springapp.mvc.dao.RoleDAO;
 import com.springapp.mvc.dao.UserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -21,31 +22,35 @@ import java.util.List;
  * Created by aleksandrs on 1/7/14.
  */
 @Service
+@Component(value = "userDetailsService")
 @Transactional(readOnly = true)
 public class MyCustomUserDetailsService implements UserDetailsService {
 
     @Autowired
     private UserDAO userDAO;
 
+//    @Autowired
+//    private RoleDAO roleDAO;
+
     @Override
     public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
+        System.out.println(login);
+        com.springapp.mvc.entities.User domainUser = userDAO.getUser(login);
 
-            com.springapp.mvc.entities.User domainUser = userDAO.getUser(login);
+        boolean enabled = true;
+        boolean accountNonExpired = true;
+        boolean credentialsNonExpired = true;
+        boolean accountNonLocked = true;
 
-            boolean enabled = true;
-            boolean accountNonExpired = true;
-            boolean credentialsNonExpired = true;
-            boolean accountNonLocked = true;
-
-            return new User(
-                    domainUser.getUserName(),
-                    domainUser.getPassword(),
-                    enabled,
-                    accountNonExpired,
-                    credentialsNonExpired,
-                    accountNonLocked,
-                    getAuthorities((int)domainUser.getRole().getId())
-            );
+        return new User(
+            domainUser.getUserName(),
+            domainUser.getPassword(),
+            enabled,
+            accountNonExpired,
+            credentialsNonExpired,
+            accountNonLocked,
+            getAuthorities((int)domainUser.getRole().getId())
+        );
     }
 
     public Collection<? extends GrantedAuthority> getAuthorities(Integer role) {

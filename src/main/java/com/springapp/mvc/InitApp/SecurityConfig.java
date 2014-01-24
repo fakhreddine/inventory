@@ -3,7 +3,6 @@ package com.springapp.mvc.InitApp;
 /**
  * Created by aleksandrs on 1/24/14.
  */
-import javax.sql.DataSource;
 
 import com.springapp.mvc.services.MyCustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +11,13 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.web.DefaultSecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter;
+import org.springframework.web.filter.DelegatingFilterProxy;
+
+import javax.sql.DataSource;
 
 @Configuration
 @EnableWebSecurity
@@ -26,24 +30,27 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private UserDetailsService myCustomUserDetailsService;
 
     @Override
-    protected void registerAuthentication(AuthenticationManagerBuilder auth) throws Exception {
-        auth.jdbcAuthentication().dataSource(dataSource);
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.jdbcAuthentication()
+                .dataSource(dataSource)
+                .and()
+                .userDetailsService(myCustomUserDetailsService);
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.userDetailsService(myCustomUserDetailsService)
+        http.csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/app/**").hasRole("ADMIN")
                 .and()
                 .formLogin()
-                .loginPage("/index.jsp")
+                .loginPage("/")
                 .defaultSuccessUrl("/app/")
-                .failureUrl("/index.jsp")
+                .failureUrl("/?error=1")
                 .permitAll()
                 .and()
                 .logout()
-                .logoutSuccessUrl("/index.jsp");
+                .logoutSuccessUrl("/?logout");
     }
 
 }
