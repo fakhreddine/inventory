@@ -16,11 +16,7 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration>
-        <fileset id="fileset" name="securityContext" removed="false">
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/security.xml</file>
-        </fileset>
-      </configuration>
+      <configuration />
     </facet>
     <facet type="jpa" name="JPA">
       <configuration>
@@ -43,7 +39,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test-mvc:1.0.0.M2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 7.0.41" level="application_server_libraries" />
