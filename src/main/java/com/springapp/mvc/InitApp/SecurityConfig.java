@@ -4,6 +4,7 @@ package com.springapp.mvc.InitApp;
  * Created by aleksandrs on 1/24/14.
  */
 
+import com.springapp.mvc.dao.UserDAO;
 import com.springapp.mvc.services.MyCustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -27,6 +28,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private DataSource dataSource;
 
     @Autowired
+    private UserDAO userDAO;
+
+    @Autowired
     private UserDetailsService myCustomUserDetailsService;
 
     @Override
@@ -34,7 +38,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         auth.jdbcAuthentication()
                 .dataSource(dataSource)
                 .and()
-                .userDetailsService(myCustomUserDetailsService);
+                .userDetailsService(new MyCustomUserDetailsService(userDAO));
     }
 
     @Override
@@ -43,7 +47,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/app/**").hasRole("ADMIN")
                 .and()
-                .formLogin()
+                .formLogin().loginProcessingUrl("/j_spring_security_check")
                 .loginPage("/")
                 .defaultSuccessUrl("/app/")
                 .failureUrl("/?error=1")

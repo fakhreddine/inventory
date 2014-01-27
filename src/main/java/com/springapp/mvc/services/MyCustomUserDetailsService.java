@@ -26,10 +26,17 @@ import java.util.List;
 @Transactional(readOnly = true)
 public class MyCustomUserDetailsService implements UserDetailsService {
 
-    @Autowired
+//    @Autowired
     private UserDAO userDAO;
 
-//    @Autowired
+    public MyCustomUserDetailsService(UserDAO userDAO) {
+        this.userDAO = userDAO;
+    }
+
+    public MyCustomUserDetailsService() {
+    }
+
+    //    @Autowired
 //    private RoleDAO roleDAO;
 
     @Override

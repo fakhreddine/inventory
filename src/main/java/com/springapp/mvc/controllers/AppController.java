@@ -4,6 +4,7 @@ import com.springapp.mvc.dao.PcDAOImpl;
 import com.springapp.mvc.dao.VLANDAOImpl;
 import com.springapp.mvc.entities.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
@@ -17,6 +18,7 @@ import java.util.Calendar;
  */
 @Controller
 @RequestMapping("/app")
+@PreAuthorize("hasRole(ADMIN)")
 public class AppController {
 
     @Autowired

@@ -64,8 +64,8 @@
                     <a class="close" data-dismiss="alert" href="#">×</a>Incorrect Username or Password!
                 </div>
                 <form method="POST" action="<c:url value='/j_spring_security_check'/>" name="loginform" accept-charset="UTF-8">
-                    <input type="text" id="username" class="span4" name="j_username" placeholder="Username" />
-                    <input type="password" id="password" class="span4" name="j_password" placeholder="Password" />
+                    <input type="text" id="username" class="span4" name="username" placeholder="Username" />
+                    <input type="password" id="password" class="span4" name="password" placeholder="Password" />
                     <label class="checkbox">
                         <input type="checkbox" name="remember" value="1" /> Private computer
                     </label>
