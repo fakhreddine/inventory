@@ -2,9 +2,8 @@
 ## IntelliJ IDEA
 #################
 
-target/*
-src/test/*
-*/application.properties
+target
+application.properties
 
 #################
 ## Eclipse
