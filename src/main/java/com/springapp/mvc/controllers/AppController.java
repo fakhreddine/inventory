@@ -22,13 +22,10 @@ import java.util.Calendar;
 @RequestMapping("/app")
 public class AppController {
     @Autowired
-    private ComputerRepository repository;
-
-    @Autowired
     private VLANRepository vlanRepository;
 
     @Autowired
-    private PcDAOImpl pcDAO;
+    private PcDAO pcDAO;
 
     private VLANDAOImpl vlanDAO;
     private static String searchCriteria = "";

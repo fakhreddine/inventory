@@ -20,5 +20,9 @@ public interface PcDAO {
 
     public List<Pc> findAll(String value);
 
+    public List<Pc> findAll();
+
+    public Pc findOne(long id);
+
     public void save(Pc pc);
 }

@@ -3,6 +3,7 @@ package com.springapp.mvc.dao;
 import com.springapp.mvc.entities.ComputerRepository;
 import com.springapp.mvc.entities.OpSystem;
 import com.springapp.mvc.entities.Pc;
+import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -33,7 +34,15 @@ public class PcDAOImpl implements PcDAO {
 //    }
 //
     public void save(Pc pc){
-        getEM().persist(pc);
+        System.out.println(pc);
+        EntityManager em = getEM();
+        em.getTransaction().begin();
+        if (pc.getId()==null){
+            em.persist(pc);
+        } else {
+            em.merge(pc);
+        }
+        em.getTransaction().commit();
     }
 
     @Override
@@ -91,7 +100,8 @@ public class PcDAOImpl implements PcDAO {
                             pc.getHdd().equalsIgnoreCase(value) || pc.getHdd().matches(".*(?iu)"+value+".*") ||
                             pc.getCpu().equalsIgnoreCase(value) || pc.getCpu().matches(".*(?iu)"+value+".*") ||
                             pc.getUser().equalsIgnoreCase(value) || pc.getUser().matches(".*(?iu)"+value+".*") ||
-                            pc.getOffice().equalsIgnoreCase(value) || pc.getOffice().matches(".*(?iu)"+value+".*")
+                            pc.getOffice().equalsIgnoreCase(value) || pc.getOffice().matches(".*(?iu)"+value+".*") ||
+                            pc.getOther().equalsIgnoreCase(value) || pc.getOther().matches(".*(?iu)"+value+".*")
                )
             {
                 returnableList.add(pc);

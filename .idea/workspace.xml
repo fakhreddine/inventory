@@ -80,7 +80,16 @@
       <file leaf-file-name="SecurityConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="32" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1258">
+            <state line="68" column="1" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1003">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="31" selection-start="6823" selection-end="6823" vertical-scroll-proportion="0.7545126" vertical-offset="2302" max-vertical-offset="2907">
               <folding />
             </state>
           </provider>
@@ -89,7 +98,7 @@
       <file leaf-file-name="AppController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="42" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2737">
+            <state line="51" column="38" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2686">
               <folding />
             </state>
           </provider>
@@ -98,7 +107,7 @@
       <file leaf-file-name="RootConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/RootConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="0" selection-start="4886" selection-end="4886" vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="1496">
+            <state line="82" column="9" selection-start="3813" selection-end="3813" vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -107,7 +116,7 @@
       <file leaf-file-name="PcDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="510">
+            <state line="22" column="28" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -122,10 +131,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PcDAOImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PcDAOImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="0" selection-start="3465" selection-end="3465" vertical-scroll-proportion="0.8241379" vertical-offset="1222" max-vertical-offset="1802">
+            <state line="99" column="111" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0" vertical-offset="1103" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
@@ -195,12 +204,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/top.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/RootConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/AppController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
       </list>
     </option>
   </component>
@@ -940,15 +949,15 @@
       <workItem from="1390684140196" duration="1740000" />
       <workItem from="1390809080700" duration="4221000" />
       <workItem from="1390813749133" duration="1790000" />
-      <workItem from="1390816454905" duration="3198000" />
+      <workItem from="1390816454905" duration="6871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107570000" />
+    <option name="totallyTimeSpent" value="111243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1034" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1311,20 +1320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="32" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="43" selection-start="2348" selection-end="2348" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/ComputerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="1" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -1332,23 +1327,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/RootConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="4886" selection-end="4886" vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="1496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="42" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2737">
+        <state line="82" column="9" selection-start="3813" selection-end="3813" vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
@@ -1360,9 +1341,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="38" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="1" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="0" selection-start="3465" selection-end="3465" vertical-scroll-proportion="0.8241379" vertical-offset="1222" max-vertical-offset="1802">
+        <state line="99" column="111" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0" vertical-offset="1103" max-vertical-offset="1955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="31" selection-start="6823" selection-end="6823" vertical-scroll-proportion="0.7545126" vertical-offset="2302" max-vertical-offset="2907">
           <folding />
         </state>
       </provider>

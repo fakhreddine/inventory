@@ -158,6 +158,9 @@
         <a href="#" class="btn" data-dismiss="modal">Close</a>
     </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(function(){$('#username').focus();});
+</script>
 <!-- END Contact Us Model Box -->
 </body>
 </html>
