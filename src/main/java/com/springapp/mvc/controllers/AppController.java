@@ -22,15 +22,14 @@ import java.util.Calendar;
 @RequestMapping("/app")
 public class AppController {
     @Autowired
-    private EntityManagerFactory emf;
-
-    @Autowired
     private ComputerRepository repository;
 
     @Autowired
     private VLANRepository vlanRepository;
 
-    private PcDAOImpl pcDAO = new PcDAOImpl(emf);
+    @Autowired
+    private PcDAOImpl pcDAO;
+
     private VLANDAOImpl vlanDAO;
     private static String searchCriteria = "";
 

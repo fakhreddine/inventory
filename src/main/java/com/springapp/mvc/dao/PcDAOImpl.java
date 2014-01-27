@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
  */
 @Repository
 public class PcDAOImpl implements PcDAO {
-
+    @Autowired
     private EntityManagerFactory emf;
 
     private EntityManager getEM(){
@@ -28,10 +28,10 @@ public class PcDAOImpl implements PcDAO {
     public PcDAOImpl() {
     }
 
-    public PcDAOImpl(EntityManagerFactory emf) {
-        this.emf = emf;
-    }
-
+//    public PcDAOImpl(EntityManagerFactory emf) {
+//        this.emf = emf;
+//    }
+//
     public void save(Pc pc){
         getEM().persist(pc);
     }
