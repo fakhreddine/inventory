@@ -183,9 +183,12 @@ $RECYCLE.BIN/
 # Mac crap
 .DS_Store
 
-target/
-src/test/
+target/**/*
+src/test/**/*
 src/main/resources/application.properties
+*.war
+*.properties
+*.jar
 
 #############
 ## Python
