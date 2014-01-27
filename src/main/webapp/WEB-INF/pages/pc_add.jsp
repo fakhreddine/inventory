@@ -43,7 +43,7 @@
                     <div class="controls">
                         <form:select id="os" path="os">
                             <c:forEach items="<%=com.springapp.mvc.entities.OpSystem.values()%>" var="value">
-                                <option value="${value}">${value}</option>
+                                <option value="${value}" ${pc.os == value ? 'selected' : ''}>${value}</option>
                             </c:forEach>
                         </form:select>
                     </div>
