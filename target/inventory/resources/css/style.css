@@ -1,7 +1,0 @@
-@charset "UTF-8";
-html, body{margin:0;padding:0;}
-a.brand {color:#880000 !important;}
-.ui-datepicker {
-    width: 250px;
-    font-size:12px;
-}
