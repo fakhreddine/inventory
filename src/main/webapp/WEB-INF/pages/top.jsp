@@ -56,7 +56,7 @@
             <li><a href="#">Users</a></li>
         </ul>
         <ul class="nav pull-right">
-            <li class="right"><a href="#">Sign out</a></li>
+            <li class="right"><a href="<c:url value="/j_spring_security_logout"/>">Sign out</a></li>
         </ul>
     </div>
 </div>

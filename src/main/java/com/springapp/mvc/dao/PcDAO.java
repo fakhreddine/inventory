@@ -19,4 +19,6 @@ public interface PcDAO {
     public List<Pc> searchByCPU(String cpu);
 
     public List<Pc> findAll(String value);
+
+    public void save(Pc pc);
 }

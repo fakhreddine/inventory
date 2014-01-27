@@ -6,6 +6,9 @@ import com.springapp.mvc.entities.Pc;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Query;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -13,17 +16,30 @@ import java.util.regex.Pattern;
 /**
  * Created by aleksandrs on 1/2/14.
  */
+@Repository
 public class PcDAOImpl implements PcDAO {
 
-    private ComputerRepository repository;
+    private EntityManagerFactory emf;
 
-    public PcDAOImpl(ComputerRepository repository) {
-        this.repository = repository;
+    private EntityManager getEM(){
+        return emf.createEntityManager();
+    }
+
+    public PcDAOImpl() {
+    }
+
+    public PcDAOImpl(EntityManagerFactory emf) {
+        this.emf = emf;
+    }
+
+    public void save(Pc pc){
+        getEM().persist(pc);
     }
 
     @Override
     public List<Pc> searchByName(String name) {
-        List<Pc> pcList = repository.findAll();
+        Query q = getEM().createQuery("SELECT p FROM Pc p");
+        List<Pc> pcList = q.getResultList();
         List<Pc> returnableList = new LinkedList<Pc>();
         for(Pc pc : pcList){
             if (pc.getNumber().equalsIgnoreCase(name)) returnableList.add(pc);
@@ -33,7 +49,8 @@ public class PcDAOImpl implements PcDAO {
 
     @Override
     public List<Pc> searchByHdd(String hdd) {
-        List<Pc> pcList = repository.findAll();
+        Query q = getEM().createQuery("SELECT p FROM Pc p");
+        List<Pc> pcList = q.getResultList();
         List<Pc> returnableList = new LinkedList<Pc>();
         for(Pc pc : pcList){
             if (pc.getHdd().equalsIgnoreCase(hdd)) returnableList.add(pc);
@@ -43,7 +60,8 @@ public class PcDAOImpl implements PcDAO {
 
     @Override
     public List<Pc> searchByOs(String os) {
-        List<Pc> pcList = repository.findAll();
+        Query q = getEM().createQuery("SELECT p FROM Pc p");
+        List<Pc> pcList = q.getResultList();
         List<Pc> returnableList = new LinkedList<Pc>();
         for(Pc pc : pcList){
             if (pc.getOs() == OpSystem.valueOf(os)) returnableList.add(pc);
@@ -63,7 +81,8 @@ public class PcDAOImpl implements PcDAO {
 
     @Override
     public List<Pc> findAll(String value) {
-        List<Pc> pcList = repository.findAll();
+        Query q = getEM().createQuery("SELECT p FROM Pc p");
+        List<Pc> pcList = q.getResultList();
         List<Pc> returnableList = new LinkedList<Pc>();
         Pattern pattern = Pattern.compile(".*"+value+".*", Pattern.CASE_INSENSITIVE);
         for(Pc pc : pcList){
@@ -80,5 +99,13 @@ public class PcDAOImpl implements PcDAO {
         }
         return returnableList;
 
+    }
+
+    public List<Pc> findAll(){
+        return getEM().createQuery("SELECT p FROM Pc p").getResultList();
+    }
+
+    public Pc findOne(long id) {
+        return getEM().find(Pc.class, id);
     }
 }

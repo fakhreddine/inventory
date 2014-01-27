@@ -44,6 +44,8 @@ public class MyCustomUserDetailsService implements UserDetailsService {
         System.out.println(login);
         com.springapp.mvc.entities.User domainUser = userDAO.getUser(login);
 
+        System.out.println(domainUser);
+
         boolean enabled = true;
         boolean accountNonExpired = true;
         boolean credentialsNonExpired = true;

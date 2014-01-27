@@ -1,5 +1,6 @@
 package com.springapp.mvc.controllers;
 
+import com.springapp.mvc.dao.PcDAO;
 import com.springapp.mvc.dao.PcDAOImpl;
 import com.springapp.mvc.dao.VLANDAOImpl;
 import com.springapp.mvc.entities.*;
@@ -10,6 +11,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.persistence.EntityManagerFactory;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
@@ -18,15 +20,17 @@ import java.util.Calendar;
  */
 @Controller
 @RequestMapping("/app")
-@PreAuthorize("hasRole(ADMIN)")
 public class AppController {
+    @Autowired
+    private EntityManagerFactory emf;
 
     @Autowired
     private ComputerRepository repository;
+
     @Autowired
     private VLANRepository vlanRepository;
 
-    private PcDAOImpl pcDAO;
+    private PcDAOImpl pcDAO = new PcDAOImpl(emf);
     private VLANDAOImpl vlanDAO;
     private static String searchCriteria = "";
 
@@ -49,9 +53,10 @@ PCs
         model.addObject("act","devices");
         model.addObject("include","pc_list");
         if (searchCriteria.equals("")){
-            model.addObject("list",repository.findAll());
+            //pcDAO = new PcDAOImpl();
+            model.addObject("list",pcDAO.findAll());
         } else {
-            pcDAO = new PcDAOImpl(repository);
+            //pcDAO = new PcDAOImpl(repository);
             model.addObject("list", pcDAO.findAll(searchCriteria));
         }
         return model;
@@ -87,14 +92,16 @@ PCs
             SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
             pc.setAddDate(format.format(cal.getTime()));
         }
-        repository.save(pc);
+        //pcDAO = new PcDAOImpl();
+        pcDAO.save(pc);
         return new ModelAndView("redirect:/app/pc/list");
     }
 
     @RequestMapping(value = "/pc/edit/{id}", method = RequestMethod.GET)
     @ModelAttribute("pc")
     public ModelAndView editPc(@PathVariable("id") long id, Pc pc){
-        pc = repository.findOne(id);
+        //pcDAO = new PcDAOImpl();
+        pc = pcDAO.findOne(id);
         ModelAndView model = new ModelAndView("index");
         model.addObject("include","pc_add");
         model.addObject("act","devices");

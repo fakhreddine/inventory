@@ -21,6 +21,7 @@ public class UserDAOImpl implements UserDAO {
         User user = (User) em.createQuery("SELECT u FROM User u WHERE u.userName=:login")
                 .setParameter("login", login)
                 .getSingleResult();
+        System.out.println("UserImpl: "+user);
             return user;
     }
 }

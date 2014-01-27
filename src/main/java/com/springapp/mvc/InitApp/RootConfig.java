@@ -3,6 +3,7 @@ package com.springapp.mvc.InitApp;
 import java.util.Properties;
 
 import javax.annotation.Resource;
+import javax.persistence.EntityManager;
 import javax.sql.DataSource;
 
 import com.springapp.mvc.services.MyCustomUserDetailsService;
@@ -89,7 +90,7 @@ public class RootConfig {
 
         Properties jpaProperties = new Properties();
         jpaProperties.put("hibernate.dialect", env.getRequiredProperty("hibernate.dialect"));
-        //jpaProperties.put("hibernate.format_sql", env.getRequiredProperty("hibernate.format_sql"));
+        jpaProperties.put("hibernate.format_sql", true);
         jpaProperties.put("hibernate.hbm2ddl.auto", env.getRequiredProperty("hibernate.hbm2ddl.auto"));
         //jpaProperties.put("hibernate.ejb.naming_strategy", env.getRequiredProperty("hibernate.ejb.naming_strategy"));
         jpaProperties.put("hibernate.show_sql", env.getRequiredProperty("hibernate.show_sql"));
@@ -97,4 +98,5 @@ public class RootConfig {
 
         return entityManagerFactoryBean;
     }
+
 }
