@@ -56,7 +56,7 @@
             <li><a href="#">Users</a></li>
         </ul>
         <ul class="nav pull-right">
-            <li class="right">${pageContext.request.remoteUser}</li></li>
+            <li class="right"><a href="#" onclick="return false;">${pageContext.request.userPrincipal.name}</a></li>
             <li class="right"><a href="<c:url value="/j_spring_security_logout"/>">Sign out</a></li>
         </ul>
     </div>

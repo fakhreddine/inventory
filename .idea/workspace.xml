@@ -68,28 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="1" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1258">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="31" selection-start="6823" selection-end="6823" vertical-scroll-proportion="-25.461538" vertical-offset="2058" max-vertical-offset="2907">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pc_list.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pc_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="4" selection-start="144" selection-end="144" vertical-scroll-proportion="-0.0" vertical-offset="34" max-vertical-offset="1411">
+            <state line="2" column="4" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -98,7 +80,7 @@
       <file leaf-file-name="pc_add.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pc_add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="110" selection-start="2211" selection-end="2211" vertical-scroll-proportion="-13.076923" vertical-offset="425" max-vertical-offset="1768">
+            <state line="45" column="110" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1768">
               <folding>
                 <marker date="1390829210033" expanded="true" signature="562:4661" placeholder="..." />
                 <marker date="1390829210033" expanded="true" signature="1522:1777" placeholder="..." />
@@ -115,10 +97,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="top.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="64" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.82522523" vertical-offset="528" max-vertical-offset="1139">
+            <state line="7" column="42" selection-start="450" selection-end="450" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1156">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordReminder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/PasswordReminder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="57" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mailer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/Mailer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="12" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="1088">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="24" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.38659793" vertical-offset="2172" max-vertical-offset="3162">
               <folding />
             </state>
           </provider>
@@ -127,57 +149,8 @@
       <file leaf-file-name="Pc.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/Pc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1853">
-              <folding>
-                <element signature="e#735#736#0" expanded="false" />
-                <element signature="e#762#763#0" expanded="false" />
-                <element signature="e#802#803#0" expanded="false" />
-                <element signature="e#834#835#0" expanded="false" />
-                <element signature="e#861#862#0" expanded="false" />
-                <element signature="e#886#887#0" expanded="false" />
-                <element signature="e#920#921#0" expanded="false" />
-                <element signature="e#948#949#0" expanded="false" />
-                <element signature="e#981#982#0" expanded="false" />
-                <element signature="e#1010#1011#0" expanded="false" />
-                <element signature="e#1054#1055#0" expanded="false" />
-                <element signature="e#1090#1091#0" expanded="false" />
-                <element signature="e#1120#1121#0" expanded="false" />
-                <element signature="e#1146#1147#0" expanded="false" />
-                <element signature="e#1184#1185#0" expanded="false" />
-                <element signature="e#1214#1215#0" expanded="false" />
-                <element signature="e#1244#1245#0" expanded="false" />
-                <element signature="e#1270#1271#0" expanded="false" />
-                <element signature="e#1308#1309#0" expanded="false" />
-                <element signature="e#1338#1339#0" expanded="false" />
-                <element signature="e#1365#1366#0" expanded="false" />
-                <element signature="e#1391#1392#0" expanded="false" />
-                <element signature="e#1426#1427#0" expanded="false" />
-                <element signature="e#1456#1457#0" expanded="false" />
-                <element signature="e#1487#1488#0" expanded="false" />
-                <element signature="e#1512#1513#0" expanded="false" />
-                <element signature="e#1550#1551#0" expanded="false" />
-                <element signature="e#1578#1579#0" expanded="false" />
-                <element signature="e#1608#1609#0" expanded="false" />
-                <element signature="e#1634#1635#0" expanded="false" />
-                <element signature="e#1672#1673#0" expanded="false" />
-                <element signature="e#1702#1703#0" expanded="false" />
-                <element signature="e#1735#1736#0" expanded="false" />
-                <element signature="e#1764#1765#0" expanded="false" />
-                <element signature="e#1808#1809#0" expanded="false" />
-                <element signature="e#1844#1845#0" expanded="false" />
-                <element signature="e#1876#1877#0" expanded="false" />
-                <element signature="e#1904#1905#0" expanded="false" />
-                <element signature="e#1946#1947#0" expanded="false" />
-                <element signature="e#1980#1981#0" expanded="false" />
-                <element signature="e#2014#2015#0" expanded="false" />
-                <element signature="e#2044#2045#0" expanded="false" />
-                <element signature="e#2090#2091#0" expanded="false" />
-                <element signature="e#2128#2129#0" expanded="false" />
-                <element signature="e#2162#2163#0" expanded="false" />
-                <element signature="e#2192#2193#0" expanded="false" />
-                <element signature="e#2238#2239#0" expanded="false" />
-                <element signature="e#2276#2277#0" expanded="false" />
-              </folding>
+            <state line="23" column="24" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2669">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,26 +158,12 @@
       <file leaf-file-name="AppController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="38" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2941">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PcDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PcDAOImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="111" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2159">
-              <folding />
+            <state line="51" column="38" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2686">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#977#978#0" expanded="false" />
+                <element signature="e#1014#1015#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -228,8 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/DevideType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/DeviceType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/PcRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/ComputerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
@@ -265,11 +222,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/WebAppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/SecurityInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/MyCustomUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/RootConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/AppController.java" />
@@ -279,6 +234,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pc_add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/PasswordReminder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/Mailer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -676,8 +635,8 @@
       <recent name="C:\Users\aleksandrs\IdeaProjects\inventory\src\main\webapp\resources\img" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.springapp.mvc.InitApp" />
       <recent name="com.springapp.mvc.services" />
+      <recent name="com.springapp.mvc.InitApp" />
       <recent name="com.springapp.mvc.entities" />
     </key>
   </component>
@@ -1020,14 +979,16 @@
       <workItem from="1390813749133" duration="1790000" />
       <workItem from="1390816454905" duration="6871000" />
       <workItem from="1390828508497" duration="835000" />
+      <workItem from="1390833573580" duration="16000" />
+      <workItem from="1390911412173" duration="3360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112078000" />
+    <option name="totallyTimeSpent" value="115454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1034" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1054,7 +1015,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11395101" sideWeight="0.4992248" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18522727" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13897763" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30865604" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30751708" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11395101" sideWeight="0.5007752" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1088,16 +1049,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="30" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1819" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/OpSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="12" selection-start="118" selection-end="118" vertical-scroll-proportion="0.19653179" vertical-offset="0" max-vertical-offset="519" />
@@ -1240,11 +1191,6 @@
         <state line="19" column="41" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="663" />
@@ -1275,13 +1221,6 @@
         <state line="3" column="45" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="50" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="2839">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="27" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="663">
@@ -1291,9 +1230,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/ComputerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="8" column="1" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/InitApp/RootConfig.java">
@@ -1303,23 +1240,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PcDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="28" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="38" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2686">
           <folding />
         </state>
       </provider>
@@ -1340,7 +1263,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="31" selection-start="6823" selection-end="6823" vertical-scroll-proportion="-25.461538" vertical-offset="2058" max-vertical-offset="2907">
+        <state line="160" column="31" selection-start="6823" selection-end="6823" vertical-scroll-proportion="0.0" vertical-offset="2058" max-vertical-offset="2907">
           <folding />
         </state>
       </provider>
@@ -1355,62 +1278,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entities/Pc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="24" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1853">
-          <folding>
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#762#763#0" expanded="false" />
-            <element signature="e#802#803#0" expanded="false" />
-            <element signature="e#834#835#0" expanded="false" />
-            <element signature="e#861#862#0" expanded="false" />
-            <element signature="e#886#887#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
-            <element signature="e#948#949#0" expanded="false" />
-            <element signature="e#981#982#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1054#1055#0" expanded="false" />
-            <element signature="e#1090#1091#0" expanded="false" />
-            <element signature="e#1120#1121#0" expanded="false" />
-            <element signature="e#1146#1147#0" expanded="false" />
-            <element signature="e#1184#1185#0" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-            <element signature="e#1244#1245#0" expanded="false" />
-            <element signature="e#1270#1271#0" expanded="false" />
-            <element signature="e#1308#1309#0" expanded="false" />
-            <element signature="e#1338#1339#0" expanded="false" />
-            <element signature="e#1365#1366#0" expanded="false" />
-            <element signature="e#1391#1392#0" expanded="false" />
-            <element signature="e#1426#1427#0" expanded="false" />
-            <element signature="e#1456#1457#0" expanded="false" />
-            <element signature="e#1487#1488#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1550#1551#0" expanded="false" />
-            <element signature="e#1578#1579#0" expanded="false" />
-            <element signature="e#1608#1609#0" expanded="false" />
-            <element signature="e#1634#1635#0" expanded="false" />
-            <element signature="e#1672#1673#0" expanded="false" />
-            <element signature="e#1702#1703#0" expanded="false" />
-            <element signature="e#1735#1736#0" expanded="false" />
-            <element signature="e#1764#1765#0" expanded="false" />
-            <element signature="e#1808#1809#0" expanded="false" />
-            <element signature="e#1844#1845#0" expanded="false" />
-            <element signature="e#1876#1877#0" expanded="false" />
-            <element signature="e#1904#1905#0" expanded="false" />
-            <element signature="e#1946#1947#0" expanded="false" />
-            <element signature="e#1980#1981#0" expanded="false" />
-            <element signature="e#2014#2015#0" expanded="false" />
-            <element signature="e#2044#2045#0" expanded="false" />
-            <element signature="e#2090#2091#0" expanded="false" />
-            <element signature="e#2128#2129#0" expanded="false" />
-            <element signature="e#2162#2163#0" expanded="false" />
-            <element signature="e#2192#2193#0" expanded="false" />
-            <element signature="e#2238#2239#0" expanded="false" />
-            <element signature="e#2276#2277#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pc_add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="110" selection-start="2211" selection-end="2211" vertical-scroll-proportion="-13.076923" vertical-offset="425" max-vertical-offset="1768">
+        <state line="45" column="110" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1768">
           <folding>
             <marker date="1390829210033" expanded="true" signature="562:4661" placeholder="..." />
             <marker date="1390829210033" expanded="true" signature="1522:1777" placeholder="..." />
@@ -1426,9 +1300,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="64" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.82522523" vertical-offset="528" max-vertical-offset="1139">
+        <state line="7" column="42" selection-start="450" selection-end="450" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="38" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2686">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1014#1015#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/PasswordReminder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="57" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/Mailer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="12" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="1088">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="24" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.38659793" vertical-offset="2172" max-vertical-offset="3162">
           <folding />
         </state>
       </provider>
